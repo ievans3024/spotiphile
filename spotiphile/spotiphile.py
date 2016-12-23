@@ -14,7 +14,7 @@ class Spotiphile:
         self.YOUTUBE_DEV_KEY = YOUTUBE_DEV_KEY
 
     def get(
-        self, url, yt_url,
+        self, url, yt_url=None,
         out="Downloads/{artist}/{album}/{title}.mp3"
     ):
 
